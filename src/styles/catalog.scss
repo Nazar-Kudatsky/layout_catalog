@@ -21,6 +21,14 @@
     height: 134px;
     margin: auto;
     margin-bottom: 33px;
+    transition: $time-transition;
+    box-sizing: initial;
+    border: 3px solid #fff;
+
+    &:hover {
+      transform: scale(1.2);
+      border: 3px solid #f3f3f3;
+    }
   }
 
   &__name {
@@ -77,6 +85,7 @@
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    transition: $time-transition;
 
     &:hover {
       background: #ffff;
