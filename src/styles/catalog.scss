@@ -21,13 +21,10 @@
     height: 134px;
     margin: auto;
     margin-bottom: 33px;
-    transition: $time-transition;
-    box-sizing: initial;
-    border: 3px solid #fff;
+    transition: transform $time-transition;
 
     &:hover {
       transform: scale(1.2);
-      border: 3px solid #f3f3f3;
     }
   }
 
