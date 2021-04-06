@@ -33,6 +33,7 @@
     white-space: nowrap;
     text-decoration: none;
     color: #000;
+    transition: $time-transition;
 
     &.is-active,
     &:hover {

@@ -21,6 +21,11 @@
     height: 134px;
     margin: auto;
     margin-bottom: 33px;
+    transition: transform $time-transition;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   &__name {
@@ -77,6 +82,7 @@
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    transition: $time-transition;
 
     &:hover {
       background: #ffff;
