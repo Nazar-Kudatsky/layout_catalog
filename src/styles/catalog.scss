@@ -1,8 +1,9 @@
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: catalogWidth($cardWidth, $gap);
+  padding: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, $cardWidth);
+  justify-content: center;
+  column-gap: $gap;
 }
 
 .card {
